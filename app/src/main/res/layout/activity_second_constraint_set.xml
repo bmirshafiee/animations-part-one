@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:id="@+id/second_constraint_set"
+                                             android:layout_height="match_parent">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" app:srcCompat="@drawable/sillicon_valley"
+            android:id="@+id/imageView3"
+            android:onClick="toggledMode"
+            android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"/>
+    <TextView
+            android:text="@string/desc_string"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/textView6" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="24sp" android:textColor="@android:color/white" android:background="@android:color/black"
+            android:padding="8dp"/>
+    <View
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:id="@+id/view2" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintBottom_toTopOf="@+id/textView6" android:background="@drawable/gradient"/>
+    <TextView
+            android:text="@string/title_text_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="48sp" android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light" android:paddingEnd="8dp" android:paddingStart="8dp"
+            app:layout_constraintEnd_toStartOf="parent"/>
+    <TextView
+            android:text="@string/sillicon_text_desc_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="@+id/textView7"
+            android:textSize="24sp" android:textColor="@android:color/black"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/textView7"/>
+</android.support.constraint.ConstraintLayout>
