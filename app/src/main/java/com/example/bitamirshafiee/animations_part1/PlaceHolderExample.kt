@@ -1,6 +1,6 @@
 package com.example.bitamirshafiee.animations_part1
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.transition.ChangeBounds
 import android.transition.TransitionManager

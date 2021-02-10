@@ -1,11 +1,11 @@
 package com.example.bitamirshafiee.animations_part1
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.constraint.ConstraintLayout
-import android.support.constraint.ConstraintSet
 import android.transition.TransitionManager
 import android.view.View
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintSet
 
 class FirstConstraintSet : AppCompatActivity() {
 

@@ -1,15 +1,14 @@
 package com.example.bitamirshafiee.animations_part1
 
 import android.animation.ValueAnimator
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.renderscript.Sampler
-import android.support.annotation.LayoutRes
-import android.support.constraint.ConstraintLayout
-import android.support.constraint.ConstraintSet
 import android.transition.TransitionManager
 import android.view.animation.LinearInterpolator
 import android.widget.ImageView
+import androidx.annotation.LayoutRes
+import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintSet
 import kotlinx.android.synthetic.main.activity_circular_positioning.*
 import java.util.concurrent.TimeUnit
 
